@@ -10,6 +10,7 @@ import SignInAndSignUpPage from './pages/signin-and-signup/signin-and-signup.com
 import ShopPage from './pages/shop/shop.component';
 import CheckoutPage from './pages/checkout/checkout.component';
 import {auth, createUserProfileDocument} from './firebase/firebase.utils';
+import styled from 'styled-components';
 import './App.css';
 
 class App extends React.Component {
